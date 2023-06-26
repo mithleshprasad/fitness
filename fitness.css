@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: capitalize;
+    transition: all 0.3s linear;
+    outline: none;
+}
+::selection{
+    background-color: yellowgreen;
+    color: #fff;
+}
+body{
+   
+    
+    font-family: 'Handlee', cursive;
+    border-radius:15px;
+}
+/*lets start header part*/
+
+header{
+    width: 100%;
+    height: 100vh;
+    
+   background-image:
+    url("./pexels-leon-ardho-1552242.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    
+}
+
+
+header .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+header .content h1{
+    font-size: 6rem;
+    
+    color: #fff;
+}
+.btn{
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    color: yellowgreen;
+    margin-top:1.8rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    color: #fff;
+
+}
+a{
+    color: #fff;
+}
+/*nav*/
+
+.navbar-brand {
+    padding: 11px 20px;
+    border-radius: 10px;
+}
+
+
+.navbar-nav {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-item {
+    padding: 6px 12px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    background-color: rgb(4, 255, 0);
+}
+
+.right {
+    margin-left: auto;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+@media (max-width: 992px) {
+    .right {
+        margin-left: 0;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/*about section*/
+#about-me{
+    font-family: 'Handlee', cursive;
+    border-radius:15px;
+  }
+
+.container-fluid{
+    background-color: 6e17b1;
+    
+}
+.row{
+    margin: 0 auto 0 auto;
+    color: #A0D995;
+}
+
+h1{
+    font-family: 'Handlee', cursive;
+    border-radius:25px;
+    
+}
+.lead{
+    color: #164431;
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+/* form*/
+
+#my-media iframe{
+    background-color: #43a09d;
+    border:5px solid #3fb6b2;
+  }
+  #survey-form input, #survey-form #texbox{
+  background-color :#f0f0f0; 
+  
+  }
+  ::placeholder {
+    color: rgb(128, 128, 128);
+    font-weight:bold;
+    font-family:'Arial', sans-serif;
+    font-size: 15px;
+  }
+  #survey-form button[type="submit"]{
+    color:#FFF;
+    background:#148dbd;
+    border:1px solid #1be239;
+    font-size:20px;
+    font-weight:800;
+    padding:10px 10px;
+    margin-top:10px;
+    border-radius:10px;
+  }
+  #survey-form button[type="submit"]:hover, #survey-form button[type="submit"]:active{
+    color:#fff;
+    background-color: #14d023;
+    border:1px solid #43a09d;
+    box-shadow:none;
+  }
+
+
+  /* footer*/
+
+  /* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #1fee14;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background:black !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
